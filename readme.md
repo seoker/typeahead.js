@@ -1,12 +1,9 @@
-[![Build Status](https://travis-ci.org/corejavascript/typeahead.js.svg?branch=master)](https://travis-ci.org/corejavascript/typeahead.js)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/corejavascript/typeahead.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![bitHound Score](https://www.bithound.io/github/corejavascript/typeahead.js/badges/score.svg)](https://www.bithound.io/github/corejavascript/typeahead.js)
-[![bitHound Dependencies](https://www.bithound.io/github/corejavascript/typeahead.js/badges/dependencies.svg)](https://www.bithound.io/github/corejavascript/typeahead.js/master/dependencies/npm)
+[![Build Status](https://travis-ci.org/seoker/typeahead.js.svg?branch=master)](https://travis-ci.org/seoker/typeahead.js)
 [![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iron/iron/master/LICENSE)
 
 # [corejs-typeahead](https://typeahead.js.org/)
 
-This is a maintained fork of [twitter.com](https://twitter.com)'s autocomplete search library, [typeahead.js](https://github.com/twitter/typeahead.js).
+This is a fork of [corejs-typeahead](https://github.com/corejavascript/typeahead.js) which is fork of [twitter.com](https://twitter.com)'s autocomplete search library, [typeahead.js](https://github.com/twitter/typeahead.js).
 
 The typeahead.js library consists of 2 components: the suggestion engine,
 [Bloodhound](https://github.com/corejavascript/typeahead.js/blob/master/doc/bloodhound.md), and the UI view, [Typeahead](https://github.com/corejavascript/typeahead.js/blob/master/doc/jquery_typeahead.md).
@@ -19,17 +16,17 @@ they can provide a rich typeahead experience.
 
 How you acquire typeahead.js is up to you:
 
-* Install with [Bower](https://bower.io/): `$ bower install corejs-typeahead`
+* Install with [Bower](https://bower.io/): `$ bower install seoker-typeahead`
 
-* Install with [npm](https://www.npmjs.com): `$ npm install corejs-typeahead`
+* ~~Install with [npm](https://www.npmjs.com): `$ npm install corejs-typeahead`~~
 
-* [Download zipball of latest release](https://github.com/corejavascript/typeahead.js/archive/master.zip)
+* [Download zipball of latest release](https://github.com/seoker/typeahead.js/archive/master.zip)
 
 * Download the latest dist files individually:
-  * [bloodhound.js](https://github.com/corejavascript/typeahead.js/raw/master/dist/bloodhound.js) (standalone suggestion engine)
-  * [typeahead.jquery.js](https://github.com/corejavascript/typeahead.js/raw/master/dist/typeahead.jquery.js) (standalone UI view)
-  * [typeahead.bundle.js](https://github.com/corejavascript/typeahead.js/raw/master/dist/typeahead.bundle.js) (*bloodhound.js* + *typeahead.jquery.js*)
-  * [typeahead.bundle.min.js](https://github.com/corejavascript/typeahead.js/raw/master/dist/typeahead.bundle.min.js)
+  * [bloodhound.js](https://github.com/seoker/typeahead.js/raw/master/dist/bloodhound.js) (standalone suggestion engine)
+  * [typeahead.jquery.js](https://github.com/seoker/typeahead.js/raw/master/dist/typeahead.jquery.js) (standalone UI view)
+  * [typeahead.bundle.js](https://github.com/seoker/typeahead.js/raw/master/dist/typeahead.bundle.js) (*bloodhound.js* + *typeahead.jquery.js*)
+  * [typeahead.bundle.min.js](https://github.com/seoker/typeahead.js/raw/master/dist/typeahead.bundle.min.js)
 
 **Note:** both *bloodhound.js* and *typeahead.jquery.js* have a dependency on
 [jQuery](http://jquery.com/) 1.9+.

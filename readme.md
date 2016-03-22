@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/seoker/typeahead.js.svg?branch=master)](https://travis-ci.org/seoker/typeahead.js)
 [![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iron/iron/master/LICENSE)
 
-# [corejs-typeahead](https://typeahead.js.org/)
+# [seoker-typeahead](https://typeahead.js.org/)
 
 This is a fork of [corejs-typeahead](https://github.com/corejavascript/typeahead.js) which is fork of [twitter.com](https://twitter.com)'s autocomplete search library, [typeahead.js](https://github.com/twitter/typeahead.js).
 
